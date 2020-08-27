@@ -28,6 +28,37 @@
   color: #61dafb;
 }
 
+/* shop css */
+.shop{
+  display: flex;
+}
+.courses{
+  width: 64%;
+  margin: 100px 2%;
+
+}
+.cart{
+  
+}
+/* floating css */
+.app-body{
+  position: relative;
+  
+}
+.header{
+  position: fixed;
+  box-shadow: 0px 0px 5px gray;
+}
+.cart{
+  position: fixed;
+  height: 510px;
+  width: 30%;
+  padding: 0 10px;
+  top: 110px;
+  right: 0;
+
+  border-left: 1px solid lightblue;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

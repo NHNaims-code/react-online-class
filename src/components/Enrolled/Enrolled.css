@@ -1,0 +1,44 @@
+.enrolled-body{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.enrolled-body img{
+    height: 50px;
+    margin-right: 10px;
+}
+.enrolled-info{
+    width: 100%;
+
+}
+.enrolled-detail{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.enrolled-body h1{
+    width: 100%;
+    font-size: 14px;
+    margin: 0;
+}
+.enrolled-body p{
+    margin: 0;
+}
+.enrolled-body h4{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+.total-cost{
+    font-weight: 700;
+    color: orange;
+}
