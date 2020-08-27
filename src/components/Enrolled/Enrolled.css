@@ -42,3 +42,52 @@
     font-weight: 700;
     color: orange;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+    .enrolled-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: orange;
+        padding-top: 20px
+    }
+    .enrolled-body img{
+        height: 50px;
+        margin-right: 0;
+    }
+    .enrolled-detail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .enrolled-body h1{
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+
+    }
+    .enrolled-detail p{
+        text-align: center;
+        font-size: 12px;
+        background-color: white;
+        margin-top: 5px;
+    }
+    .enrolled-detail h4{
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+    .total-cost{
+        color: white;
+    }
+}

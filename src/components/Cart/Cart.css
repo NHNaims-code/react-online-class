@@ -1,4 +1,5 @@
 .cart-info{
+    height: 28vh;
     text-align: center;
     box-shadow: 0 0 5px gray;
     border-radius: 5px;
@@ -17,7 +18,7 @@
     font-weight: 700;
 }
 .cart-item{
-    height: 350px;
+    height: 50vh;
     overflow-y: scroll; 
 }
 .cart-icon{
@@ -25,4 +26,13 @@
 }
 .total-course{
     color: orange;
+}
+
+
+
+@media (max-width: 991px){
+    .cart-body{
+        display: none;
+        visibility: hidden;
+    }
 }

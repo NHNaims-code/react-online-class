@@ -8,7 +8,7 @@ const Cart = (props) => {
     const cart = props.cart;
     const totalCost = cart.reduce((totalCost, course) => totalCost + course.price, 0);
     return (
-        <div>
+        <div className="cart-body">
             <div className="cart-info">
                 <h1>Your <FontAwesomeIcon className="cart-icon" icon={faShoppingBasket} />  Detail</h1>
                 <p>Total Courses: <span className="total-course">{cart.length}</span></p>
